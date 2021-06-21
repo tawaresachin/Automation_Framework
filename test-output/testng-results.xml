@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Case TC002 is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test Case TC001 is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test Case TC003 is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test Case TC006 is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test Case TC004 is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test Case TC007 is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Test Case TC008 is Passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-06-19T04:36:06Z" name="Default suite" finished-at="2021-06-19T04:36:33Z" duration-ms="27018">
+    <groups>
+    </groups>
+    <test started-at="2021-06-19T04:36:06Z" name="Default test" finished-at="2021-06-19T04:36:33Z" duration-ms="27018">
+      <class name="com.facebook.Tests.FlipkartLoginTest">
+        <test-method is-config="true" signature="setupSystem()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:06Z" name="setupSystem" finished-at="2021-06-19T04:36:14Z" duration-ms="7874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSystem -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:14Z" name="waits" finished-at="2021-06-19T04:36:16Z" duration-ms="2003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method signature="validateForgotLink()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:16Z" name="validateForgotLink" finished-at="2021-06-19T04:36:16Z" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateForgotLink -->
+        <test-method is-config="true" signature="listenLoginPage(org.testng.ITestResult)[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:16Z" name="listenLoginPage" finished-at="2021-06-19T04:36:16Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateForgotLink status=SUCCESS method=FlipkartLoginTest.validateForgotLink()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case TC002 is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- listenLoginPage -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:16Z" name="waits" finished-at="2021-06-19T04:36:18Z" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method signature="validateLoginHeader()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:18Z" name="validateLoginHeader" finished-at="2021-06-19T04:36:18Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginHeader -->
+        <test-method is-config="true" signature="listenLoginPage(org.testng.ITestResult)[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:18Z" name="listenLoginPage" finished-at="2021-06-19T04:36:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLoginHeader status=SUCCESS method=FlipkartLoginTest.validateLoginHeader()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case TC001 is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- listenLoginPage -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:18Z" name="waits" finished-at="2021-06-19T04:36:20Z" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method signature="validateRequestOTPLink()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:20Z" name="validateRequestOTPLink" finished-at="2021-06-19T04:36:20Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRequestOTPLink -->
+        <test-method is-config="true" signature="listenLoginPage(org.testng.ITestResult)[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:20Z" name="listenLoginPage" finished-at="2021-06-19T04:36:20Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRequestOTPLink status=SUCCESS method=FlipkartLoginTest.validateRequestOTPLink()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case TC003 is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- listenLoginPage -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:20Z" name="waits" finished-at="2021-06-19T04:36:22Z" duration-ms="2000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method signature="validateTermsPoliciesLink()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:22Z" name="validateTermsPoliciesLink" finished-at="2021-06-19T04:36:22Z" duration-ms="49" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:87)
+at org.junit.Assert.fail(Assert.java:96)
+at com.facebook.Tests.FlipkartLoginTest.validateTermsPoliciesLink(FlipkartLoginTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTermsPoliciesLink -->
+        <test-method is-config="true" signature="listenLoginPage(org.testng.ITestResult)[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:22Z" name="listenLoginPage" finished-at="2021-06-19T04:36:23Z" duration-ms="593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateTermsPoliciesLink status=FAILURE method=FlipkartLoginTest.validateTermsPoliciesLink()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listenLoginPage -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:23Z" name="waits" finished-at="2021-06-19T04:36:25Z" duration-ms="2001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method signature="validateUserFieldonLoginPage()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:25Z" name="validateUserFieldonLoginPage" finished-at="2021-06-19T04:36:26Z" duration-ms="1367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserFieldonLoginPage -->
+        <test-method is-config="true" signature="listenLoginPage(org.testng.ITestResult)[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:26Z" name="listenLoginPage" finished-at="2021-06-19T04:36:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUserFieldonLoginPage status=SUCCESS method=FlipkartLoginTest.validateUserFieldonLoginPage()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case TC006 is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- listenLoginPage -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:26Z" name="waits" finished-at="2021-06-19T04:36:28Z" duration-ms="2001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method signature="validateCreateAccountLink()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:28Z" name="validateCreateAccountLink" finished-at="2021-06-19T04:36:28Z" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateAccountLink -->
+        <test-method is-config="true" signature="listenLoginPage(org.testng.ITestResult)[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:28Z" name="listenLoginPage" finished-at="2021-06-19T04:36:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateCreateAccountLink status=SUCCESS method=FlipkartLoginTest.validateCreateAccountLink()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case TC004 is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- listenLoginPage -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:28Z" name="waits" finished-at="2021-06-19T04:36:30Z" duration-ms="2005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method signature="validatePasswordFieldonLoginPage()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:30Z" name="validatePasswordFieldonLoginPage" finished-at="2021-06-19T04:36:31Z" depends-on-methods="com.facebook.Tests.FlipkartLoginTest.validateUserFieldonLoginPage" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePasswordFieldonLoginPage -->
+        <test-method is-config="true" signature="listenLoginPage(org.testng.ITestResult)[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:31Z" name="listenLoginPage" finished-at="2021-06-19T04:36:31Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePasswordFieldonLoginPage status=SUCCESS method=FlipkartLoginTest.validatePasswordFieldonLoginPage()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case TC007 is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- listenLoginPage -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:31Z" name="waits" finished-at="2021-06-19T04:36:33Z" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method signature="validateLoginButtonClickAction()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:33Z" name="validateLoginButtonClickAction" finished-at="2021-06-19T04:36:33Z" depends-on-methods="com.facebook.Tests.FlipkartLoginTest.validatePasswordFieldonLoginPage" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginButtonClickAction -->
+        <test-method is-config="true" signature="listenLoginPage(org.testng.ITestResult)[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c]" started-at="2021-06-19T04:36:33Z" name="listenLoginPage" finished-at="2021-06-19T04:36:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLoginButtonClickAction status=SUCCESS method=FlipkartLoginTest.validateLoginButtonClickAction()[pri:0, instance:com.facebook.Tests.FlipkartLoginTest@28dcca0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case TC008 is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- listenLoginPage -->
+      </class> <!-- com.facebook.Tests.FlipkartLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
