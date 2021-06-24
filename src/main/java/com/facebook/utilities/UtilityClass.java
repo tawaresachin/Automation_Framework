@@ -16,6 +16,8 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
 
 import com.facebook.base.BaseClass;
@@ -62,6 +64,12 @@ public class UtilityClass extends BaseClass
 		file=new FileInputStream(prop.getProperty("log4j"));
 		PropertyConfigurator.configure(file);
 		log.info(str);
+	}
+	
+	public Actions action(WebDriver driver)
+	{
+		Actions act=new Actions(driver);
+		return act;
 	}
 	
 

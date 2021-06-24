@@ -15,25 +15,29 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.*;
 
+import com.facebook.Pages.FlipkartHomePage;
 import com.facebook.Pages.FlipkartLoginPage;
 import com.facebook.base.BaseClass;
 import com.facebook.utilities.UtilityClass;
 
 public class FlipkartLoginTest extends BaseClass
 {
-	WebDriver driver ;
+	public static WebDriver driver ;
 	Properties prop;
 	UtilityClass utility;
 	FlipkartLoginPage loginPage;
 	boolean result;
 	String TCID;
 	String str;
+	
 	@BeforeClass
 	public void setupSystem() throws IOException, InterruptedException
 	{
 		prop=callProperty();
 		initialization();
 		driver = BrowserFactory();
+		driver.get(prop.getProperty("url"));
+		driver.manage().window().maximize();
 		utility=new UtilityClass();
 		loginPage=new FlipkartLoginPage(driver);
 	}
@@ -83,7 +87,7 @@ public class FlipkartLoginTest extends BaseClass
 		String terms=loginPage.checkTermsPoliciesLink();
 		result=terms.equals("By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.");
 		Assert.assertTrue(result);
-		Assert.fail();
+//		Assert.fail();
 	}
 	
 	@Test
@@ -110,6 +114,7 @@ public class FlipkartLoginTest extends BaseClass
 		Assert.assertTrue(result);
 	}
 	
+	
 	@AfterMethod()
 	public void listenLoginPage(ITestResult result) throws IOException
 	{
@@ -132,5 +137,10 @@ public class FlipkartLoginTest extends BaseClass
 					Reporter.log(str,true);
 				}
 	}
-
+	
+	@AfterClass
+	public static WebDriver switchToHomePage()
+	{
+		return driver;
+	}
 }
