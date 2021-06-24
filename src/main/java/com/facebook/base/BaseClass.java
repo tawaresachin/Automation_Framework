@@ -60,8 +60,6 @@ public class BaseClass
 					driver=new EdgeDriver();
 				}
 		driver.manage().timeouts().implicitlyWait(5000,TimeUnit.MILLISECONDS);
-		driver.get(prop.getProperty("url"));
-		driver.manage().window().maximize();
 		return driver;
 	}
 	

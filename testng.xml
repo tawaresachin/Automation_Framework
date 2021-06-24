@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Facebook">
+  <test thread-count="5" name="facebookTest" preserve-order="true">
+    <classes>
+      <class name="com.facebook.Tests.FlipkartLoginTest"/>
+      <class name="com.facebook.Tests.FlipkartHomeTest"/>
+      <class name="com.facebook.Tests.FlipkartElectronicsTest"/>
+    </classes>
+  </test> <!-- facebookTest -->
+</suite> <!-- Facebook -->
