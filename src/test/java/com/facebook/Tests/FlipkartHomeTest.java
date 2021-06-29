@@ -141,6 +141,7 @@ public class FlipkartHomeTest
 	@AfterMethod()
 	public void listenLoginPage(ITestResult result) throws IOException
 	{
+		driver=FlipkartLoginTest.switchToHomePage();
 		if (ITestResult.FAILURE==result.getStatus())
 		{
 			utility.Screenshot(driver, TCID);
