@@ -9,9 +9,10 @@ import org.testng.Reporter;
 import org.testng.annotations.*;
 
 import com.facebook.Pages.FlipkartElectronicsPage;
+import com.facebook.base.BaseClass;
 import com.facebook.utilities.UtilityClass;
 
-public class FlipkartElectronicsTest 
+public class FlipkartElectronicsTest extends BaseClass
 {
 	UtilityClass utility;
 	static WebDriver driver;
