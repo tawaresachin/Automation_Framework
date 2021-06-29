@@ -1,7 +1,6 @@
 package com.facebook.Tests;
 
 import java.io.IOException;
-import java.util.Properties;
 
 import org.testng.Assert;
 import org.openqa.selenium.WebDriver;
@@ -9,14 +8,12 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.*;
 
-import com.facebook.Pages.FlipkartElectronicsPage;
 import com.facebook.Pages.FlipkartHomePage;
-import com.facebook.base.BaseClass;
 import com.facebook.utilities.UtilityClass;
 
-public class FlipkartHomeTest extends BaseClass
+public class FlipkartHomeTest
 {
-	static WebDriver driver;
+	protected static WebDriver driver;
 	UtilityClass utility;
 	static FlipkartHomePage homePage;
 	Boolean result;

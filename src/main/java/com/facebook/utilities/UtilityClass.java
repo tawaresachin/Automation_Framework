@@ -16,7 +16,6 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
 
@@ -32,7 +31,7 @@ public class UtilityClass extends BaseClass
 	DecimalFormat convert;
 	String str;
 	Logger log;
-	static WebDriver driver;
+	
 	public void Screenshot(WebDriver driver, String TCID) throws IOException
 	{
 		src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

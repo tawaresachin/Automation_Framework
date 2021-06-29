@@ -15,6 +15,7 @@ public class FlipkartHomePage extends BaseClass
 	
 	Boolean flag;
 	UtilityClass utility=new UtilityClass();
+	
 	Actions act;
 	
 	@FindBy(xpath="//a//img[@class='_2xm1JU']") private WebElement logo;

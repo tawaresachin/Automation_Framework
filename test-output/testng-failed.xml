@@ -3,22 +3,6 @@
 <suite name="Failed suite [Facebook]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="facebookTest(failed)">
     <classes>
-      <class name="com.facebook.Tests.FlipkartLoginTest">
-        <methods>
-          <include name="validateLoginButtonClickAction"/>
-          <include name="validateUserFieldonLoginPage"/>
-          <include name="validatePasswordFieldonLoginPage"/>
-          <include name="listenLoginPage"/>
-          <include name="validateLoginHeader"/>
-          <include name="validateCreateAccountLink"/>
-          <include name="validateTermsPoliciesLink"/>
-          <include name="waits"/>
-          <include name="validateRequestOTPLink"/>
-          <include name="validateForgotLink"/>
-          <include name="setupSystem"/>
-          <include name="switchToHomePage"/>
-        </methods>
-      </class> <!-- com.facebook.Tests.FlipkartLoginTest -->
       <class name="com.facebook.Tests.FlipkartHomeTest">
         <methods>
           <include name="FlipkartHomePageLogoTest"/>
