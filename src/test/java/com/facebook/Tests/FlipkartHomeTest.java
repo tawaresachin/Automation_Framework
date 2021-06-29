@@ -14,7 +14,7 @@ import com.facebook.Pages.FlipkartHomePage;
 import com.facebook.base.BaseClass;
 import com.facebook.utilities.UtilityClass;
 
-public class FlipkartHomeTest
+public class FlipkartHomeTest extends BaseClass
 {
 	static WebDriver driver;
 	UtilityClass utility;
