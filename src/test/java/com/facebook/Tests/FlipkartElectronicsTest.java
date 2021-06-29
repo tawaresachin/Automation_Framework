@@ -2,8 +2,8 @@ package com.facebook.Tests;
 
 import java.io.IOException;
 
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.*;
@@ -33,7 +33,7 @@ public class FlipkartElectronicsTest
 	{
 		TCID="TC022";
 		result=electronics.checkNSetPriceBar(driver);
-		Assert.assertTrue(result);
+		org.testng.Assert.assertTrue(result);
 	}
 	
 	@Test (dependsOnMethods="checkNSetPriceBarTest")

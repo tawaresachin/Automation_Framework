@@ -32,7 +32,7 @@ public class UtilityClass extends BaseClass
 	DecimalFormat convert;
 	String str;
 	Logger log;
-	
+	static WebDriver driver;
 	public void Screenshot(WebDriver driver, String TCID) throws IOException
 	{
 		src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
