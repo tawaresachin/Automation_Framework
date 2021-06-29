@@ -23,7 +23,7 @@ public class FlipkartHomeTest
 	@BeforeClass
 	public void InitializeHome() throws IOException, InterruptedException
 	{
-		driver=FlipkartLoginTest.switchToHomePage();
+		driver= FlipkartLoginTest.switchToHomePage();
 		utility=new UtilityClass();
 		homePage=new FlipkartHomePage(driver);
 	}
@@ -141,7 +141,7 @@ public class FlipkartHomeTest
 	@AfterMethod()
 	public void listenLoginPage(ITestResult result) throws IOException
 	{
-		driver=FlipkartLoginTest.switchToHomePage();
+		
 		if (ITestResult.FAILURE==result.getStatus())
 		{
 			utility.Screenshot(driver, TCID);

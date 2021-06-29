@@ -15,7 +15,8 @@ public class FlipkartHomePage extends BaseClass
 	
 	Boolean flag;
 	UtilityClass utility=new UtilityClass();
-	
+	protected static WebDriver driver;
+	static JavascriptExecutor js;
 	Actions act;
 	
 	@FindBy(xpath="//a//img[@class='_2xm1JU']") private WebElement logo;
@@ -120,7 +121,7 @@ public class FlipkartHomePage extends BaseClass
 
 	public Boolean checkFlipkartAboutUs(WebDriver driver)
 	{
-		JavascriptExecutor js=(JavascriptExecutor)driver; 
+		js=(JavascriptExecutor)driver; 
 		js.executeScript("arguments[0].scrollIntoView(true)", aboutUs);
 		flag=aboutUs.isEnabled();
 		return flag;

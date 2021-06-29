@@ -5,36 +5,14 @@
     <classes>
       <class name="com.facebook.Tests.FlipkartHomeTest">
         <methods>
-          <include name="FlipkartHomePageLogoTest"/>
-          <include name="LaptopsNDesktopTest"/>
-          <include name="FlipkartTravelTest"/>
-          <include name="FlipkartMobilesTest"/>
-          <include name="listenLoginPage"/>
-          <include name="FlipkartOthersTest"/>
-          <include name="switchToElectronicsPage"/>
-          <include name="InitializeHome"/>
           <include name="FlipkartAboutUsLinkTest"/>
           <include name="systemWait"/>
           <include name="handOver"/>
-          <include name="FlipkartElectronicsTest"/>
-          <include name="FlipkartHomeOptionTest"/>
-          <include name="FlipkartGroceryTest"/>
-          <include name="FlipkartAppliancesTest"/>
-          <include name="FlipkartFashionTest"/>
-          <include name="FlipkartOffersTest"/>
-          <include name="FlipkartShoppingCartTest"/>
+          <include name="listenLoginPage"/>
+          <include name="switchToElectronicsPage"/>
+          <include name="InitializeHome"/>
         </methods>
       </class> <!-- com.facebook.Tests.FlipkartHomeTest -->
-      <class name="com.facebook.Tests.FlipkartElectronicsTest">
-        <methods>
-          <include name="listenLoginPage"/>
-          <include name="DesiredProcessorTest"/>
-          <include name="elctronicsTestSetup"/>
-          <include name="extractPriceOfFirstLaptopTest"/>
-          <include name="quitBrowser"/>
-          <include name="checkNSetPriceBarTest"/>
-        </methods>
-      </class> <!-- com.facebook.Tests.FlipkartElectronicsTest -->
     </classes>
   </test> <!-- facebookTest(failed) -->
 </suite> <!-- Failed suite [Facebook] -->
