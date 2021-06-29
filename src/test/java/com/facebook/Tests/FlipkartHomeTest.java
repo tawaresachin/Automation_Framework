@@ -3,7 +3,7 @@ package com.facebook.Tests;
 import java.io.IOException;
 import java.util.Properties;
 
-import org.junit.Assert;
+import org.testng.Assert;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.Reporter;
