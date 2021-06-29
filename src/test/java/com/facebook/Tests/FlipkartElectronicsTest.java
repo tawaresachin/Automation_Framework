@@ -14,8 +14,8 @@ import com.facebook.utilities.UtilityClass;
 
 public class FlipkartElectronicsTest extends BaseClass
 {
+	protected static WebDriver driver;
 	UtilityClass utility;
-	static WebDriver driver;
 	FlipkartElectronicsPage electronics;
 	Boolean result;
 	String TCID;

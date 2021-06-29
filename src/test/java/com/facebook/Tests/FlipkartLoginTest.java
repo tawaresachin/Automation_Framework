@@ -1,28 +1,22 @@
 package com.facebook.Tests;
 
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.text.DecimalFormat;
 import java.util.Properties;
 
 import org.apache.poi.EncryptedDocumentException;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.testng.Assert;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.*;
 
-import com.facebook.Pages.FlipkartHomePage;
 import com.facebook.Pages.FlipkartLoginPage;
 import com.facebook.base.BaseClass;
 import com.facebook.utilities.UtilityClass;
 
 public class FlipkartLoginTest extends BaseClass
 {
-	public static WebDriver driver ;
+	protected static WebDriver driver ;
 	Properties prop;
 	UtilityClass utility;
 	FlipkartLoginPage loginPage;
