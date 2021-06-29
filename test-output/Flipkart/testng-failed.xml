@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Facebook]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="facebookTest(failed)">
+<suite name="Failed suite [Flipkart]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FlipkartTest(failed)">
     <classes>
       <class name="com.facebook.Tests.FlipkartLoginTest">
         <methods>
@@ -52,5 +52,5 @@
         </methods>
       </class> <!-- com.facebook.Tests.FlipkartElectronicsTest -->
     </classes>
-  </test> <!-- facebookTest(failed) -->
-</suite> <!-- Failed suite [Facebook] -->
+  </test> <!-- FlipkartTest(failed) -->
+</suite> <!-- Failed suite [Flipkart] -->

@@ -18,7 +18,7 @@ public class BaseClass
 	
 	public Properties callProperty() throws IOException
 	{
-		FileInputStream propFile=new FileInputStream("D:\\Study\\Testing Class\\local\\facebook\\src\\main\\java\\com\\facebook\\Reporters\\config.properties");
+		FileInputStream propFile=new FileInputStream("D:\\Study\\Testing Class\\local\\Automation_Framework\\src\\main\\java\\com\\facebook\\Reporters\\config.properties");
 		prop=new Properties();
 		prop.load(propFile);
 		return prop;
