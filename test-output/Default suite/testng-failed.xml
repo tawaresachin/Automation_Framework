@@ -3,15 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.facebook.Tests.FlipkartHomeTest">
+      <class name="com.facebook.Tests.FlipkartLoginTest">
         <methods>
-          <include name="FlipkartHomePageLogoTest"/>
-          <include name="systemWait"/>
+          <include name="validateLoginButtonClickAction"/>
+          <include name="validateUserFieldonLoginPage"/>
+          <include name="validatePasswordFieldonLoginPage"/>
           <include name="listenLoginPage"/>
-          <include name="switchToElectronicsPage"/>
-          <include name="InitializeHome"/>
+          <include name="waits"/>
+          <include name="setupSystem"/>
+          <include name="switchToHomePage"/>
         </methods>
-      </class> <!-- com.facebook.Tests.FlipkartHomeTest -->
+      </class> <!-- com.facebook.Tests.FlipkartLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
